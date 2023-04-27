@@ -7,8 +7,8 @@ Multiple inheritance is not available in java.
 Instead we have java interfaces. they have abstract functions (no body of functions)
 
 Interface is like class but not completely. it is like an abstract class.
-By default functions are public and abstract in interface.
-variables are final and static by default in interface.
+By default functions are PUBLIC and ABSTRACT in interface.
+variables are FINAL and STATIC by default in interface.
 
 Interfaces specify only what the class is doing, not how it is doing it.
 The problem with MULTIPLE INHERITANCE is that two classes may define different ways of doing the same thing,
