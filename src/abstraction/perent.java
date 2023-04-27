@@ -5,7 +5,7 @@ public abstract class perent {
 
 
     // in abstract class you can't create contructor
-    //so you can't create object
+    //so you can't create objecta
      // and abstract class cant have a methos which are static because overrideing cant
     // happens with static stuff so you cant create //abstract static methods//
     //you can create normal methods
