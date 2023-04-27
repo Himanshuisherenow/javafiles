@@ -11,6 +11,8 @@ public class Boxweight extends Box{
         super();//whenever this super keyword used like this all th perents contructor which are have a same parameter will run automatically
         this.d=d;
         System.out.println("I'm in the Box-weight constructor");
+//        this.method(); take a look on this
+//        super.method();
     }
 
 
