@@ -4,17 +4,17 @@ package arraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class CustomArrayList  <T> {
+public class CustomArrayList  {
 
-    private Object[] data;
+    private int[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0; // also working as index value
 
     public CustomArrayList() {
-        this.data = new Object[DEFAULT_SIZE];
+        this.data = new int[DEFAULT_SIZE];
     }
 
-    public void add(T num) {
+    public void add(int num) {
         if (isFull()) {
             resize();
         }
@@ -22,7 +22,7 @@ public class CustomArrayList  <T> {
     }
 
     private void resize() {
-        Object[] temp = new Object[data.length * 2];
+        int[] temp = new int[data.length * 2];
 
         // copy the current items in the new array
         for (int i = 0; i < data.length; i++) {
@@ -35,8 +35,8 @@ public class CustomArrayList  <T> {
         return size == data.length;
     }
 
-    public T remove() {
-        T removed = data[--size];
+    public int remove() {
+        int removed = data[--size];
         return removed;
     }
 
