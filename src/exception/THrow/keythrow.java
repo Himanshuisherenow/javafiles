@@ -21,5 +21,8 @@ public class keythrow {
 
       throw new ArithmeticException("it is not good practice");// if on the above else run, the exact below
                                                                // throw will run and if not than if would give error
+
+
+
     }
 }
